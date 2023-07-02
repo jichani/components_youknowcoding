@@ -34,3 +34,20 @@
     border: none;
     background-color: transparent;
 }
+
+@media screen and (max-width: 800px) {
+    .nav__menu {
+        display: none;
+    }
+
+    .nav__wrapper {
+        min-width: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .nav__wrapper {
+        display: none;
+    }
+
+}

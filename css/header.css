@@ -60,6 +60,10 @@
     border-radius: 0 2px 2px 0;
 }
 
+.header__end {
+    display: flex;
+}
+
 .header__search {
     display: none;
     margin-right: 5px;
